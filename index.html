@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selami Bijoux | مجوهرات السلامي</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --gold-light: #F3E5AB;
+            --bg-dark: #0F0F0F;
+            --card-bg: #1A1A1A;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 30px 15px;
+        }
+        .container {
+            width: 100%;
+            max-width: 440px;
+            text-align: center;
+        }
+        .logo-circle {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 2px solid var(--gold);
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--card-bg);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.25);
+        }
+        .logo-circle i {
+            font-size: 42px;
+            color: var(--gold);
+        }
+        h1 {
+            font-size: 24px;
+            color: var(--gold);
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .ar-title {
+            font-size: 18px;
+            color: var(--gold-light);
+            margin-bottom: 12px;
+        }
+        .bio-desc {
+            font-size: 14px;
+            color: #CCCCCC;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            padding: 0 10px;
+        }
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .btn-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            background-color: var(--card-bg);
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-link i {
+            font-size: 20px;
+            color: var(--gold);
+        }
+        .btn-link:hover {
+            background-color: var(--gold);
+            color: #000000;
+            transform: translateY(-2px);
+        }
+        .btn-link:hover i {
+            color: #000000;
+        }
+        .info-box {
+            margin-top: 25px;
+            padding: 15px;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px dashed rgba(212, 175, 55, 0.3);
+            font-size: 13px;
+            color: #BBBBBB;
+            line-height: 1.7;
+        }
+        .info-box strong {
+            color: var(--gold);
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- الشعار -->
+    <div class="logo-circle">
+        <!-- يمكنك استبدال الأيقونة بصورة الشعار عبر وسم img -->
+        <i class="fa-regular fa-gem"></i>
+    </div>
+
+    <h1>SELAMI BIJOUX</h1>
+    <div class="ar-title">مجوهرات السلامي 👑</div>
+    
+    <p class="bio-desc">
+        L’élégance de l’or 18 carats dans chaque détail.<br>
+        Vente • Achat • Échange • Réparation • Création
+    </p>
+
+    <div class="links-wrapper">
+        <!-- زر واتساب -->
+        <a href="https://wa.me/2137XXXXXXXX" target="_blank" class="btn-link">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Commander via WhatsApp</span>
+        </a>
+
+        <!-- زر الاتصال المباشر -->
+        <a href="tel:+2137XXXXXXXX" class="btn-link">
+            <i class="fa-solid fa-phone"></i>
+            <span>Appeler la boutique</span>
+        </a>
+
+        <!-- زر الموقع الجغرافي -->
+        <a href="https://maps.google.com/?q=Zgage+Ben+Ramdane+Biskra" target="_blank" class="btn-link">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Localisation GPS (Biskra)</span>
+        </a>
+
+        <!-- زر فيسبوك -->
+        <a href="https://facebook.com/" target="_blank" class="btn-link">
+            <i class="fa-brands fa-facebook"></i>
+            <span>Page Facebook Officielle</span>
+        </a>
+
+        <!-- زر تيك توك -->
+        <a href="https://tiktok.com/" target="_blank" class="btn-link">
+            <i class="fa-brands fa-tiktok"></i>
+            <span>Suivez-nous sur TikTok</span>
+        </a>
+    </div>
+
+    <div class="info-box">
+        <strong>📍 Adresse :</strong> Zgage Ben Ramdane, Wilaya de Biskra<br>
+        <strong>🕒 Horaires :</strong> Samedi - Jeudi | 09h00 - 19h00
+    </div>
+
+    <footer>
+        © 2026 Selami Bijoux. Tous droits réservés.
+    </footer>
+</div>
+
+</body>
+</html>
